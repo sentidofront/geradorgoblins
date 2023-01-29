@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+
+#goblin-text  {
+   font-family: 'Staatliches', cursive;  
+   text-align: center;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+#greensmallthing-text {
+  font-family: 'Staatliches', cursive;  
+  font-size: 25px;
+  color: green;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#goblinButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 26px;
+    font-family: 'Staatliches', cursive;   
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+#goblinButton:hover{
+  background-color: rgb(139, 0, 0);
+}
+
+#gobulingobulin {
+    background: white;
+    box-shadow: 2px 2px 5px grey;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Staatliches', cursive;  
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.psychedelic-bg {
+    animation: psychedelic 10s infinite;
+  }
+  
+  @keyframes psychedelic {
+    0% { background-color: purple; }
+    10% { background-color: blue; }
+    20% { background-color: green; }
+    30% { background-color: yellow; }
+    40% { background-color: orange; }
+    50% { background-color: red; }
+    60% { background-color: pink; }
+    70% { background-color: purple; }
+    80% { background-color: blue; }
+    90% { background-color: green; }
+    100% { background-color: yellow; }
+  }
+  
